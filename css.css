@@ -1,0 +1,100 @@
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.box{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;   
+    background-color:#ddd; 
+    border: 2px solid black;
+    width: auto;
+    justify-content: center;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;   
+    background-color: rgb(187, 45, 45); 
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+.grid-2SA{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.inline{
+    display: flex;
+    flex-direction: row;  
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.caja{
+    margin: auto;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    margin: 10px;
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.caja2{
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 0 10px #f85408a4;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid black;
+}
+.texto{
+    text-align: center; 
+    width: 200px;
+    margin: 14px;
+}
+.h1{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Oswald', sans-serif;}
+.subtitulo{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Oswald', sans-serif;
+ text-align: center;
+}
+body{
+    background-color: brown;
+}
+button{
+    height: auto;
+    width: auto;
+}
+.espaciado{
+    margin-left: 40%;
+    border: 5px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
