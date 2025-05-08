@@ -1,5 +1,5 @@
 
-fetch(`https://pokeapi.co/api/v2/pokemon?offset=0&limit=386`)
+fetch(`https://pokeapi.co/api/v2/pokemon?offset=0&limit=151`)
 .then((resp) => resp.json())
 .then((data) => {
     const pokedexKanto = data.results.map(async (pokemon) => {
